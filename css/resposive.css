@@ -1,0 +1,254 @@
+@media only screen and (max-width: 1240px){
+    .nav{
+        display: none;
+    }
+    .nav_button{
+        display: none;
+    }
+    .menu_btn{
+        display: block;
+    }
+    .credits_in p{
+        letter-spacing: 0px;
+    }
+    .call_me{
+        max-width: 800px;
+    }
+    .icons{
+        padding: 0px 50px;
+    }
+    .nav_image{
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .icon_description{
+        gap: 25px;
+    }
+    .icons h2{
+        font-size: 30px;
+    }
+    .star_p2{
+        padding: 0px 40px;
+    }
+    .btn1{
+        min-width: 800px;
+    }
+    .btn2{
+        min-width: 800px;
+    }
+    .btn3{
+        min-width: 800px;
+    }
+    .btn4{
+        min-width: 800px;
+    }
+    .call_me{
+        max-width: 750px;
+    }
+    .credits_in p{
+        font-size: 13px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .credits_bg .cre_img1{
+        transform: scale(0.8,0.8);
+    }
+    .credits_bg .cre_img2{
+        transform: scale(0.3,0.3);
+    }
+
+}
+
+@media only screen and (max-width: 770px){
+    .index_logo{
+        transform: scale(0.8,0.8);
+    }
+    body{
+        background-size: 100% 600px;
+    }
+    .icon_description{
+        flex-direction: column;
+        gap: 0px;
+        top: 60px;
+    }
+    .icons h2{
+        font-size: 40px;
+    }
+    .credits{
+        flex-direction: column;
+    }
+    #cre{
+        bottom: 20px;
+    }
+    .credits_in p{
+        font-size: 20px;
+    }
+    .call_me{
+        max-width: 500px;
+    }
+    .swiper{
+        transform: scale(0.9,0.9);
+    }
+    .star2{
+        margin-top: 80px;
+    }
+    .btn1{
+        min-width: 500px;
+    }
+    .btn2{
+        min-width: 500px;
+    }
+    .btn3{
+        min-width: 500px;
+    }
+    .btn4{
+        min-width: 500px;
+    }
+    .starimg{
+        top: 45px;
+        right: 80px;
+    }
+    .star h2{
+        font-size: 40px;
+    }
+    .star h3{
+        font-size: 30px;
+    }
+    .icons{
+        padding: 0px 0px;
+    }
+    .credits_bg .cre_img1{
+        transform: scale(0.7,0.7);
+    }
+    .credits_bg .cre_img2{
+        transform: scale(0.3,0.3);
+        right: 100px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 550px){
+    .span2{
+        flex-direction: column;
+    }
+    .credits_bg .cre_img1{
+        transform: scale(0.5,0.5);
+        right: 60px;
+    }
+    .credits_bg .cre_img2{
+        transform: scale(0.2,0.2);
+        right: 200px;
+    }
+    .btn1{
+        min-width: 300px;
+    }
+    .btn2{
+        min-width: 300px;
+    }
+    .btn3{
+        min-width: 300px;
+    }
+    .btn4{
+        min-width: 300px;
+    }
+    .star h2{
+        font-size: 30px;
+        padding:0 20px;
+        text-align: center;
+    }
+    .star h3{
+        font-size: 20px;
+        padding:0 20px;
+    }
+    .starimg{
+        top: 45px;
+        right: 185px;
+    }
+    .call_me{
+        max-width: 300px;
+    }
+    .bg{
+        min-height: 400px;
+    }
+    .index_logo{
+        transform: scale(0.7,0.7);
+        right: 5px;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width:420px){
+    .index_logo{
+        transform: scale(0.5,0.5);
+        right: 70px;
+        top: 100px;
+    }
+    .bg{
+        min-height: 400px;
+    }
+    .credits_bg .cre_img1{
+        transform: scale(0.4,0.4);
+ 
+    }
+    .credits_bg .cre_img2{
+        transform: scale(0.2,0.2);
+    
+    }
+    .footer_img{
+        right: 75px;
+    }
+
+
+    .starimg{
+        top: 45px;
+        right: 255px;
+    }
+    .slide_container{
+        min-height: 30vh ;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 380px){
+    .call_me{
+        max-width: 300px;
+        padding: 20px;
+    }
+    .credits_bg .cre_img1{
+        transform: scale(0.4,0.4);
+      
+    }
+    .credits_bg .cre_img2{
+        transform: scale(0.2,0.2);
+       
+    }
+    .span1 p{
+        font-size: 16px;
+    }
+    .starimg{
+        transform: scale(0.7,0.7);
+        top: 25px;
+        right: 280px;
+    }
+    .index_logo{
+        transform: scale(0.5,0.5);
+        right: 90px;
+        top: 100px;
+    }
+    .bg{
+        min-height: 400px;
+    }
+    .slide_container{
+        min-height: 30vh;
+    }
+    .footer_img{
+        right: 95px;
+    }
+
+}
+

@@ -1,0 +1,679 @@
+html{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.bg{
+    max-width: 100%;
+    min-height: 650px;
+    background-image: url('../assets/abstract_blue_4k_8k_hd-3840x2160.jpg');
+    background-size: cover;
+
+}
+
+/************************************************** NavBar *********************************************/
+a{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+    
+}
+
+#navbar_container{
+    background-color: #0f256c;
+    min-height: 60px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-weight: 600;  
+}
+
+.nav_image{
+    min-height: 35px;
+    max-width: 35px;
+    margin-top: 6px;
+    padding-left: 180px;
+    padding-right: 90px;
+}
+
+.nav_button{
+    border-style: none;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.nav_button:hover{
+    transition: all 400ms ease;
+    background-color: #f39f86;
+    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+    cursor: pointer;
+   
+    
+}
+
+.nav:hover{
+    color: rgb(212, 143, 14);
+    background-color: #1f316e;
+    display: inline;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 400ms ease;
+
+
+}
+
+/********************************* center logo **********************************************/
+
+.index_logo{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 230px;
+}
+
+/**************************************** Image Slide *******************************************/
+
+.slide_container{
+    position: relative;
+    max-width: 100%;
+    min-height: 50vh;
+    background-color: #0f256c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    max-width: 90%;
+    min-height: fit-content;
+}
+
+.swiper-slide img{
+    max-width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.slide_container:hover{
+    cursor: pointer;
+}
+
+/********************************* CALL FORM ****************************************************/
+
+.form_bg{
+    max-width: 100%;
+    background-image: linear-gradient(#0f256c,white );
+    position: relative;
+    min-height: 80vh;
+    
+}
+
+.call_me{
+    max-width: 910px;
+    margin: auto;
+    position: relative;
+    top: 83px;
+    background-image: url('../assets/335335_soft-white-backgrounds-hd-wallpaper-get-it-now_1920x1200_h.jpg');
+    padding: 40px;
+    border-radius: 20px; 
+    outline:  #0f256c;
+    outline-style: solid;
+    outline-width: 4px;
+
+
+}
+
+.call_me h2{
+    color: #0f256c;
+    font-weight: 700;
+    font-size: 40px;
+}
+.call_me p{
+    color: #0f256c;
+    font-weight: bold;
+}
+.free_call{
+    color: #0f256c;
+    font-size: larger;
+}
+
+.call_me img{
+    float: left;
+    margin-bottom: 10px;
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-top: 10px;
+    outline: #0f256c;
+    outline-style: solid;
+    outline-width: 5px;
+}
+
+.call_me .form_name{
+    position: relative;
+}
+
+.call_me .form_name input{
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    color: #0f256c;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #0f256c;
+    outline: none;
+    background: transparent;
+}
+
+.call_me .form_name label{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 10px 0;
+    font-size: 20px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+    font-weight: bold;
+}
+
+.call_me .form_name input:focus ~ label,
+.call_me .form_name input:valid ~ label{
+    top: -20px;
+    left: 0px;
+    color: #0f256c;
+    font-size: 16px;
+}
+
+.call_me form a{
+    display: block;
+    max-width: 90px;
+    padding: 10px 20px;
+    color: #0f256c;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    outline: #0f256c;
+    outline-style: solid;
+    outline-width: 2px;
+    border-radius: 5px;
+    
+}
+
+.call_me a:hover{
+    background-color: #0f256c;
+    color: white;
+    border-radius: 5px;
+}
+
+/************************************* STAR SECTION **************************************/
+
+.star{
+    max-width: 100%;
+    position: relative;
+}
+
+.star img{
+    transform: scale(0.3,0.3);
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+}
+
+
+.star2{
+    max-width: 950px;
+    margin: auto;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 170px;
+}
+
+.star h2{
+    font-size: 50px;
+    color: #000c81;
+    margin-top: 0px;
+}
+.star h3{
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
+    color: #000c81;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.star_p2{
+    font-size: 19px;
+    position: relative;
+    color: #000c81;
+    margin-top: 0px;
+    bottom: 20px;
+
+}
+
+.star_btn{
+    max-width: 100%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    bottom: 150px;
+}
+
+.btn1{
+    text-align: center;
+    background-color: #7051be;
+    min-width: 950px;
+    min-height: 40px;
+    padding-top: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+.btn2{
+    text-align: center;
+    background-color:#34d9c8;
+    min-width: 950px;
+    min-height: 40px;
+    padding-top: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+.btn3{
+    text-align: center;
+    background-color:#47b147;
+    min-width: 950px;
+    min-height: 40px;
+    padding-top: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+.btn4{
+    text-align: center;
+    background-color:#47b147;
+    min-width: 950px;
+    min-height: 40px;
+    padding-top: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+.btn1:hover{
+    background-color: #9c82e0;
+    transition: all 400ms ease;
+}
+.btn2:hover{
+    background-color: #7febe1;
+    transition: all 400ms ease;
+}
+.btn3:hover{
+    background-color: #6fbb6f;
+    transition: all 400ms ease;
+}
+.btn4:hover{
+    background-color: #6fbb6f;
+    transition: all 400ms ease;
+}
+
+/******************************************* ICONS ******************************************************/
+.icons{
+    background-color: #f6f6f6;
+    max-width: 100%;
+    min-height: 50vh;
+}
+
+.icon_description{
+    position: relative;
+    top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.icons h2{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.icons_des{
+    max-width: 300px;
+    min-height: 300px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.icons img{
+    transform: scale(0.8,0.8);
+    padding: 0;
+    position: relative;
+    top: 1px;
+
+}
+
+.icons a:hover{
+    position: relative;
+    bottom: 30px;
+    transition: all 1s ease;
+}
+
+.icons p{
+    color: #0f256c;
+}
+
+#ic1{
+    transform: scale(0.7,0.7);
+    position: relative;
+    top: 15px;
+}
+
+#groom{
+    position: relative;
+    bottom: 38px;
+}
+
+#groom::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top:280px;
+    height: 0.175rem;
+    background: #47b147;
+}
+#groom::after{
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+}
+
+#groom:hover::after{
+    transform: scale(1,1);
+}
+
+#training::after{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 0.175rem;
+    background: #47b147;
+}
+#training::after{
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+}
+
+#training:hover::after{
+    transform: scale(1,1);
+}
+#internship::after{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 0.175rem;
+    background: #47b147;
+}
+#internship::after{
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+}
+
+#internship:hover::after{
+    transform: scale(1,1);
+}
+
+#placement::after{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 0.175rem;
+    background: #47b147;
+}
+#placement::after{
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+}
+
+#placement:hover::after{
+    transform: scale(1,1);
+}
+
+
+
+/**************************************** FOOTER *********************************************************/
+
+.credits_bg{
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+    min-height: 80vh;
+
+
+}
+
+.credits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+}
+
+
+.credits_in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+
+}
+
+#cre{
+    position: relative;
+    bottom: 100px;
+}
+.credits_in h2{
+    color: #68d3f7;
+}
+
+.credits_in p{
+    color: white;
+    position: relative;
+    bottom: 40px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+p.cre_p{
+    position: relative;
+    bottom: 70px
+}
+
+.footer_img{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.credits_bg .cre_img1{
+    transform: scale(1,1);
+    position: relative;
+    top: 30px;
+}
+
+.credits_bg .cre_img2{
+    transform: scale(0.4,0.4);
+    position: relative;
+}
+
+.span1{
+    color: white;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span1 p{
+    position: relative;
+    bottom: 80px;
+    font-size: 17px;
+}
+
+.span2{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span2 a{
+    position: relative;
+    bottom: 80px;
+    font-size: 17px;
+    padding: 20px;
+}
+
+/**************************************** SIDE BAR *********************************************************/
+
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-sizing: border-box;
+}
+
+.side_button{
+    border-style: none;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.side_button:hover{
+    transition: all 400ms ease;
+    background-color: #f39f86;
+    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+    cursor: pointer;
+}
+
+.items a{
+    font-weight: 600;
+}
+
+.side_bar{
+    width: 100%;
+    background-color: #0f256c;
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 3;
+    transition: 0.6s ease;
+    transition-property: left;
+    
+}
+
+.side_bar.active{
+    left: 0;
+}
+
+
+.side_bar .menu{
+    width: 100%;
+    margin-top: 80px;
+    
+}
+
+.side_bar .menu .items{
+    position: relative;
+}
+
+.side_bar .menu .items a{
+    width: 100%;
+    font-size: 16px;
+    display: block;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+
+.side_bar .menu .items button{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.side_bar .menu .items a:hover{
+    background-color: #1f316e;
+    transition: 0.3s ease;
+}
+
+.close_btn{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+
+.menu_btn{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+/******************************************SCROLL ANIMATION*******************************************************/
+
